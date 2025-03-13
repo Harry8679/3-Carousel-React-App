@@ -1,11 +1,10 @@
 import './App.css';
+import ImagesGallery from './components/ImagesGallery';
 
 function App() {
   return (
     <div className="App">
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <ImagesGallery />
     </div>
   );
 }
