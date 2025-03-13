@@ -22,8 +22,6 @@ const images = [
 ];
 
 const ImagesGallery = () => {
-  
-    
   return (
     <div className="max-w-4xl mx-auto grid grid-cols-2 gap-4 p-5">
         {images.map((image) => (
